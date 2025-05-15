@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>نقاشی هم‌زمان</title>
+    <link rel="stylesheet" href="/main.css" />
+</head>
+
+<body>
+    <h1>ویرایشگر نقاشی هم‌زمان</h1>
+
+    <div class="toolbar">
+        <label for="colorPicker">انتخاب رنگ:</label>
+        <input type="color" id="colorPicker" value="#000000" />
+        <label for="lineWidth">ضخامت خط:</label>
+        <input type="range" id="lineWidth" min="1" max="50" value="5" />
+        <button onclick="clearCanvas()">پاک کردن</button>
+    </div>
+
+    <canvas id="drawingCanvas"></canvas>
+
+    <!-- اسکریپت‌ها -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>

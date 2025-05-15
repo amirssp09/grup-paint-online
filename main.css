@@ -1,0 +1,18 @@
+body {
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    direction: rtl;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.toolbar {
+    margin-bottom: 10px;
+}
+
+canvas {
+    border: 2px solid #333;
+    background-color: white;
+    cursor: crosshair;
+}
