@@ -1,0 +1,7 @@
+version: 2
+services:
+  web:
+    build_command: npm install
+    start_command: npm start
+    environment:
+      - NODE_ENV=production
